@@ -1,3 +1,11 @@
+<div class = 'background' style="position: absolute; z-index: -1; left: 0; top: 0;">
+  <div id="bg">
+      <%= image_tag("https://pixabay.com/get/6dbd7c940bcfb28c9f57/1448308528/hiker-984098_1920.jpg?direct",class:"logo", :alt => "logo", width: '100%', height:'100%') %>
+  </div>
+</div>
+<center>
+<div class = 'newexperience'>
+  <h2>New Experience</h2>
 <%= form_for(@experience) do |f| %>
   <% if @experience.errors.any? %>
     <div id="error_explanation">
@@ -22,4 +30,6 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+</div>
+</center>
 <% end %>
