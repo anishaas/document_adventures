@@ -15,8 +15,8 @@
 //= require turbolinks
 //= require_tree .
 //jQuery is required to run this code
+//= require materialize-sprockets
+
 $(document).ready(function () {
-
     $(".player").mb_YTPlayer();
-
 });
