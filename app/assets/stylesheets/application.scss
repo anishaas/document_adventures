@@ -17,6 +17,29 @@
  $primary-color: color("blue", "lighten-2") !default;
  @import 'materialize';
 
+ .background {
+   #bg {
+     opacity: 0.80;
+     width:100%;
+   }
+ }
+
+ .login {
+     background: #e1e8ed;
+     width: 400px;
+     border-radius: 2px;
+     opacity: .9;
+     padding: 40px;
+     display: block;
+     margin-top: 10%;
+     font-family: 'Lato';
+     text-align:center;
+     #signin {
+       text-align:center;
+       text-transform:uppercase;
+     }
+   }
+
 #loginbutton {
   a {
     color: white;
