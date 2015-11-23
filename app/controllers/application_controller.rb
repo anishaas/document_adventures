@@ -15,7 +15,7 @@ end
 
 def current_user #setting current user to user in session(logged in user)
   if user_logged_in?
-    Student.find(session[:logged_in_users_id])
+    User.find(session[:logged_in_users_id])
   end
 end
 
