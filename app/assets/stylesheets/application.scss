@@ -33,6 +33,10 @@
      opacity: 0.80;
      width:100%;
    }
+   #bg1 {
+     opacity: 0.80;
+     width:100%;
+   }
  }
 
  .login {
@@ -92,4 +96,62 @@
  margin: 0px;
  }
  .video-section .buttonBar{display:none;}
+ .player {font-size: 1px;}
+
+ .video-section1 .pattern-overlay1 {
+ background-color: rgba(71, 71, 71, 0.59);
+ padding: 110px 0 32px;
+ min-height: 496px;
+ width: 100%;
+ height:100vh;
+ margin-top: -8px;
+ /* Incase of overlay problems just increase the min-height*/
+ }
+ .video-section1 h1, .video-section1 h3{
+ text-align:center;
+ color:#fff;
+ }
+ .video-section1 h1{
+ font-size:110px;
+ font-family: 'Lato', sans-serif;
+ text-transform: uppercase;
+ text-shadow: 1px 1px 1px #000;
+ -webkit-text-shadow: 1px 1px 1px #000;
+ -moz-text-shadow: 1px 1px 1px #000;
+ }
+ .video-section1 h3{
+ font-size: 25px;
+ font-weight:lighter;
+ margin: 0px;
+ }
+ .video-section1 .buttonBar{display:none;}
+ .player {font-size: 1px;}
+
+ .video-section2 .pattern-overlay2 {
+ background-color: rgba(71, 71, 71, 0.59);
+ padding: 110px 0 32px;
+ min-height: 496px;
+ width: 100%;
+ height:100vh;
+ margin-top: -8px;
+ /* Incase of overlay problems just increase the min-height*/
+ }
+ .video-section2 h1, .video-section2 h3{
+ text-align:center;
+ color:#fff;
+ }
+ .video-section2 h1{
+ font-size:110px;
+ font-family: 'Lato', sans-serif;
+ text-transform: uppercase;
+ text-shadow: 1px 1px 1px #000;
+ -webkit-text-shadow: 1px 1px 1px #000;
+ -moz-text-shadow: 1px 1px 1px #000;
+ }
+ .video-section2 h3{
+ font-size: 25px;
+ font-weight:lighter;
+ margin: 0px;
+ }
+ .video-section2 .buttonBar{display:none;}
  .player {font-size: 1px;}
